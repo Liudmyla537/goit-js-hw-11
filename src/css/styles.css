@@ -51,7 +51,7 @@ form button:hover {
 }
 
 
-.loader {
+/* .loader {
   display: block;
   width: 48px;
   height: 48px;
@@ -60,7 +60,7 @@ form button:hover {
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin: 20px auto;
-}
+} */
 
 .hidden {
   display: none;
@@ -79,7 +79,7 @@ form button:hover {
   align-items: center;
   gap: 24px;
   margin-top: 32px;
-  max-width: 1128px;
+  /* max-width: 1128px; */
   /* width: calc((100% - 48px) / 3); */
 }
 
@@ -89,18 +89,10 @@ form button:hover {
   max-width: 360px;
   transition: transform .25s cubic-bezier(.4, 0, .2, 1);
   border: 1px solid #808080;
-
+  /* max-width: 1128px; */
+  /* width: calc((100% - 48px) / 3); */
 
 }
-
-/* .gallery li.info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-  padding: 4px 20px;
-  background-color: #fff;
-} */
 
 .info {
   display: flex;
@@ -112,9 +104,9 @@ form button:hover {
   background-color: #fff;
   max-width: 360px;
   max-height: 240px;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 12px;
-  line-height: 1.33333;
+  line-height: 2;
   letter-spacing: 0.04em;
   color: #2e2f42;
 }

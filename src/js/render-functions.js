@@ -15,18 +15,14 @@ export function createGallery(images) {
         <img src="${img.webformatURL}" data-src="${img.largeImageURL}" alt="${img.tags}" />
       </a>
       <div class="info">
-        <p>Likes</b>
-            ${img.likes}
-         </p>
-        <p>Views</b>
-            ${img.views}
-         </p>
-        <p>Comments</b>
-            ${img.comments}
-         </p>
-        <p>Downloads</b>
-            ${img.downloads}
-         </p>
+        <p><b>Likes</b>
+        ${img.likes}</p>
+        <p><b>Views</b>
+        ${img.views}</p>
+        <p><b>Comments</b>
+        ${img.comments}</p>
+        <p><b>Downloads</b>
+        ${img.downloads}</p>
       </div>
     </li>
   `
